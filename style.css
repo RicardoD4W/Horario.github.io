@@ -1,0 +1,169 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:700);
+*{
+    font-family:  Calibri;
+    animation: aparecer 0.5s ease;
+}
+
+@keyframes aparecer {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.servidor:hover{
+    font-weight: 500;
+    animation: naranja 1s ease;
+    background-color: #ff8519;
+    color: white;
+}
+
+@keyframes naranja {
+    from{background-color: #11191f;}
+    to{background-color: #ff8519;}
+}
+
+.empresas:hover{
+    font-weight: 500;
+    animation: azul 1s ease;
+    background-color: #48e;
+    color: white;
+}
+
+@keyframes azul {
+    from{background-color: #11191f;}
+    to{background-color: #48e;}
+}
+
+.interfaz:hover{
+    font-weight: 500;
+    animation: verde 1s ease;
+    background-color: #4e8;
+    color: white;
+}
+
+@keyframes verde {
+    from{background-color: #11191f;}
+    to{background-color: #4e8;}
+}
+
+.cliente:hover{
+    font-weight: 500;
+    animation: amarillo 1s ease;
+    background-color: #DBE344;
+    color: white;
+}
+
+@keyframes amarillo {
+    from{background-color: #11191f;}
+    to{background-color: #DBE344;}
+}
+
+.aplicaciones:hover{
+    font-weight: 500;
+    animation: morado 1s ease;
+    background-color: #B733E5;
+    color: white;
+}
+
+@keyframes morado {
+    from{background-color: #11191f;}
+    to{background-color: #B733E5;}
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    margin: 0.5em auto;
+    letter-spacing: 0.2em;
+    font-family: "Advent Pro";
+    font-weight: 700;
+    font-size: 4.6em;
+    text-transform: uppercase;
+    color: #6d5669;
+    text-shadow: 0 0 3px #635861, 0 0 5px #635861;   
+}
+.content #switch {
+    color:#999;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    cursor: pointer;
+}
+.content {
+    position: relative;
+    width: 700px;
+    padding: 2em;
+    margin: 1em auto;
+    border-radius: 12px;
+    }
+
+    @-webkit-keyframes turnonlights {
+        0%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        1%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        4%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        7%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        8%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        12%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        22%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        23%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 15px rgb(89, 149, 240), 0 0 20px rgb(23, 109, 238), 0 0 30px rgb(23, 109, 238), 0 0 40px rgb(23, 109, 238); }
+        26%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        28%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        34%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 15px rgb(89, 149, 240), 0 0 20px rgb(23, 109, 238), 0 0 30px rgb(23, 109, 238), 0 0 40px rgb(23, 109, 238); }
+        36%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        42%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        55%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 15px rgb(89, 149, 240), 0 0 20px rgb(23, 109, 238), 0 0 30px rgb(23, 109, 238), 0 0 40px rgb(23, 109, 238); }
+        60%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        63%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 15px rgb(89, 149, 240), 0 0 20px rgb(23, 109, 238), 0 0 30px rgb(23, 109, 238), 0 0 40px rgb(23, 109, 238); }
+        67%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        72%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        73%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        76%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        78%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        84%        { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 15px rgb(89, 149, 240), 0 0 20px rgb(23, 109, 238), 0 0 30px rgb(23, 109, 238), 0 0 40px rgb(23, 109, 238); }
+        86%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+        96%    { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 17px rgb(23, 109, 238), 0 0 38px rgb(23, 109, 238)}
+        100%    { color: #48e; text-shadow: 0 0 5px rgb(89, 149, 240), 0 0 10px rgb(89, 149, 240), 0 0 15px rgb(89, 149, 240), 0 0 20px rgb(23, 109, 238), 0 0 30px rgb(23, 109, 238), 0 0 40px rgb(23, 109, 238); }
+    }
+
+.animate {
+    -webkit-animation-name: turnonlights;
+    -webkit-animation-duration: 3.0s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: steps(2, start);
+    -moz-animation-name: turnonlights;
+    -moz-animation-duration: 3.0s;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: steps(2, start);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque{
+    padding: 20px;
+}
+
+table{
+    text-align: center;
+    border: none;
+}
+
+td, tr{
+    height: 40px;
+    width: 50px;
+}
+
+th{
+    font-weight: bold;
+}
+
+.recreo{
+    height: 70px;
+
+}
+
+.black{
+    color: #000;
+}
