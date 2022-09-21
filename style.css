@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:700);
 *{
     font-family:  Calibri;
-    animation: aparecer 0.5s ease;
 }
 
 @keyframes aparecer {
@@ -150,6 +149,9 @@ table{
     border: none;
 }
 
+main{
+    animation: aparecer 1.5s ease;
+    }
 td, tr{
     height: 40px;
     width: 50px;
